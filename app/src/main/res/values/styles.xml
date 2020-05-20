@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+
+    <style name ="fee_activity">
+        <item name ="android:padding">10dp</item>
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:textSize">16dp</item>
+    </style>
+
+    <style name="profile_divider">
+        <item name = "android:layout_width">match_parent</item>
+        <item name = "android:layout_height">2dp</item>
+        <item name = "android:layout_marginLeft">15dp</item>
+        <item name = "android:layout_marginRight">15dp</item>
+        <item name = "android:background">@color/colordarkgrey</item>
+    </style>
+
+    <style name="divider_horizontal">
+        <item name = "android:layout_width">@dimen/dimen_2dp</item>
+        <item name = "android:layout_height">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name = "android:background">@color/colordarkgrey</item>
+    </style>
+
+    <style name="profile_divider_horizontal">
+        <item name = "android:layout_width">2dp</item>
+        <item name = "android:layout_height">2dp</item>
+        <item name = "android:layout_marginLeft">15dp</item>
+        <item name = "android:layout_marginRight">15dp</item>
+        <item name = "android:background">@color/colordarkgrey</item>
+    </style>
+
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+</resources>

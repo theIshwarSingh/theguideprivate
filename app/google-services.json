@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "806065681714",
+    "firebase_url": "https://theguideschool-3624a.firebaseio.com",
+    "project_id": "theguideschool-3624a",
+    "storage_bucket": "theguideschool-3624a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806065681714:android:9bc28dee60cd797a4a932b",
+        "android_client_info": {
+          "package_name": "com.myapplication.theguideschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806065681714-61roouj2859aphp6kq182otbq9du3eoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapplication.theguideschool",
+            "certificate_hash": "6b8384d13aa0d20ba3bac46c9bd0639790e076aa"
+          }
+        },
+        {
+          "client_id": "806065681714-m4v0qos6rcv29f84ov2qr9dt7jitjcs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhPajG61mlH8npS48xjTw3ptdJzqv6z7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806065681714-m4v0qos6rcv29f84ov2qr9dt7jitjcs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

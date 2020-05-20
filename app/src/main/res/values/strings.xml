@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">The Guide</string>
+    <string name="fee_details">Enter Fee Details:</string>
+    <string name="student_details">Enter Student Details:</string>
+    <string name="payment_details">Payment Details:</string>
+    <string name="amount">Amount:</string>
+    <string name="close">Close</string>
+    <string name="txn_id">Txn ID:</string>
+    <string name="payment_status">Payment Status:</string>
+    <string name="payment_history_msg">All the Payment Details are Saved in the Payment History</string>
+
+
+    <string-array name="class_name_array">
+        <item>Nursery</item>
+        <item>LKG</item>
+        <item>UKG</item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+    </string-array>
+
+
+    <string-array name="section_name_array">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+    <string name="Rs">\u20B9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="more_features_coming_soon">More features coming soon!</string>
+    <string name="student_name">Student Name:</string>
+    <string name="class_name">Class:</string>
+    <string name="sec">Sec:</string>
+    <string name="roll">Roll #:</string>
+    <string name="due_on">Due On:</string>
+    <string name="paid_on">Paid On:</string>
+    <string name="edu">Edu.</string>
+    <string name="conv">Conv</string>
+    <string name="other">Other</string>
+    <string name="amount_paid">Amount Paid:</string>
+    <string name="add_student">Add Student</string>
+
+
+</resources>

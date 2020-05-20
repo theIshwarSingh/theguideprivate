@@ -1,0 +1,278 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary">
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:padding="10dp"
+            android:text="@string/student_details"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Student's Name"
+                app:boxStrokeColor="@color/colorAccent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/stu_name"
+                    style="@style/fee_activity"
+                    android:drawableLeft="@drawable/ic_person_outline"
+                    android:drawablePadding="@dimen/dimen_10dp"></com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                app:boxStrokeColor="@color/colorAccent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_adr"
+                    style="@style/fee_activity"
+                    android:drawableLeft="@drawable/ic_mail_outline"
+                    android:drawablePadding="@dimen/dimen_10dp"
+                    android:inputType="textEmailAddress"></com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                app:boxStrokeColor="@color/colorAccent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mobile_no"
+                    style="@style/fee_activity"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:drawablePadding="@dimen/dimen_10dp"
+                    android:inputType="number"></com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Student's Roll No"
+                app:boxStrokeColor="@color/colorAccent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/stu_roll_no"
+                    style="@style/fee_activity"
+                    android:drawableLeft="@drawable/ic_turned_in_24dp"
+                    android:drawablePadding="@dimen/dimen_10dp"
+                    android:inputType="number">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+
+            <Spinner
+                android:id="@+id/spinner_class"
+                style="@style/fee_activity"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner_section"
+                style="@style/fee_activity"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:padding="10dp"
+            android:text="@string/fee_details"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Month"
+            app:boxStrokeColor="@color/colorAccent"></com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingRight="20dp">
+
+
+            <TextView
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:text="Fee Due Date:  "
+                android:id="@+id/btn_month"/>
+
+            <TextView
+                android:id="@+id/fee_month_year"
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:hint=" Month/Year" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingRight="20dp">
+
+
+            <TextView
+
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:text="Education Charges:  " />
+
+            <EditText
+                android:id="@+id/edu_charges"
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:hint=" Amount"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingRight="20dp">
+
+            <TextView
+
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:text="Conv. Charges:  " />
+
+            <EditText
+                android:id="@+id/conv_charges"
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:hint=" Amount"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingRight="20dp">
+
+            <TextView
+
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:text="Other Charges:  " />
+
+            <EditText
+                android:id="@+id/other_charges"
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:hint=" Amount"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/total_fee"
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:text="Total Fee:  " />
+
+            <TextView
+                android:id="@+id/amount"
+                style="@style/fee_activity"
+                android:layout_weight="1"
+                android:textColor="@color/red" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pay_fee"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:text="Pay Fee"
+            android:textColor="@color/colorPrimaryDark"
+            app:strokeColor="@color/colorPrimaryDark"></com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+</ScrollView>
